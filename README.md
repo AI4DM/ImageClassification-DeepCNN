@@ -305,7 +305,7 @@ torch.save(model.state_dict(), 'your_model.pth')
 
 ## 🎓 Course Content
 
-### Day 1: Image Classification & CNN Fundamentals
+### Day 2: Image Classification & CNN Fundamentals
 
 #### **Session 1: Classical Machine Learning**
 - **Topics**: Feature extraction, traditional ML algorithms, data preprocessing
@@ -319,7 +319,7 @@ torch.save(model.state_dict(), 'your_model.pth')
 - **Duration**: ~2-3 hours
 - **File**: `Session_2_Convolutional-Neural-Networks.ipynb`
 
-### Day 2: Training Deep Models
+### Day 3: Training Deep Models
 
 #### **Session 3: Deep Learning Techniques**
 - **Topics**: 
