@@ -485,6 +485,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you find this repository helpful, please consider giving it a star! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/parhamkebria/DeepCNN.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/parhamkebria/DeepCNN/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/parhamkebria/DeepCNN.svg?style=social&label=Star&maxAge=2592000)](https://github.com/AI4DM/ImageClassification-DeepCNN/stargazers/)
 
 </div>
