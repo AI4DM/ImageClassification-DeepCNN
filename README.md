@@ -117,6 +117,68 @@ DeepCNN/
 5. **Start learning**:
    Navigate to `Day 1 - Image Classification & CNN/Session_1/code/` and open the first notebook!
 
+### 🌐 Google Colab Alternative
+
+**No local setup required!** Run the notebooks directly in Google Colab with free GPU access:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+
+#### **Benefits of Using Colab:**
+- ✅ **Free GPU/TPU access** - T4, V100, or TPU runtime
+- ✅ **Pre-installed libraries** - Most dependencies already available
+- ✅ **No setup required** - Start coding immediately
+- ✅ **Cloud storage integration** - Google Drive connectivity
+- ✅ **Collaborative editing** - Share and collaborate easily
+
+#### **Quick Colab Setup:**
+
+1. **Upload notebooks to Google Drive**:
+   - Create a folder in your Google Drive
+   - Upload the `.ipynb` files from this repository
+
+2. **Open with Colab**:
+   ```python
+   # Right-click on any .ipynb file in Google Drive
+   # Select "Open with" → "Google Colaboratory"
+   ```
+
+3. **Enable GPU (Recommended)**:
+   ```
+   Runtime → Change runtime type → Hardware accelerator → GPU
+   ```
+
+4. **Install additional packages** (if needed):
+   ```python
+   !pip install scikit-image tqdm
+   # Most other packages are pre-installed
+   ```
+
+5. **Mount Google Drive** (for datasets):
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
+
+#### **Colab-Specific Tips:**
+- 📁 **File paths**: Use `/content/drive/MyDrive/` for Google Drive files
+- ⏱️ **Session limits**: ~12 hours for free accounts
+- 💾 **Save frequently**: Download important model weights
+- 🔄 **Runtime reset**: May be needed for memory management
+
+#### **Colab vs Local Setup:**
+
+| Feature | Google Colab | Local Setup |
+|---------|--------------|-------------|
+| **Setup Time** | 0 minutes | 15-30 minutes |
+| **GPU Access** | Free T4/V100 | Requires CUDA setup |
+| **Storage** | 15GB free | Unlimited |
+| **Runtime** | 12 hours max | Unlimited |
+| **Internet** | Required | Optional |
+| **Customization** | Limited | Full control |
+
+**💡 Recommendation**: Start with Colab for quick experimentation, then move to local setup for longer projects.
+
+
 ## 🛠 Environment Setup
 
 ### For GPU Support (Optional but Recommended)
