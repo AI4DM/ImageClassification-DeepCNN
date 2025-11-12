@@ -22,11 +22,11 @@ This repository contains comprehensive tutorials and educational materials for D
 - [Contributing](#contributing)
 - [License & Copyright](#license--copyright)
 
-## 🔍 Overview
+## Overview
 
 This repository provides a hands-on, practical approach to learning deep learning for computer vision, from classical machine learning foundations to advanced deep learning techniques. The materials are designed for both beginners and intermediate practitioners looking to master CNN architectures and their applications.
 
-### 🎯 Learning Objectives
+### Learning Objectives
 
 - **Fundamental Understanding**: Classical ML to Deep Learning progression
 - **CNN Architectures**: From basic CNNs to advanced architectures (VGG, ResNet, etc.)
@@ -35,7 +35,7 @@ This repository provides a hands-on, practical approach to learning deep learnin
 - **Hyperparameter Tuning**: Systematic optimization techniques
 - **End-to-End Implementation**: Complete ML pipelines from data to deployment
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 DeepCNN/
@@ -44,32 +44,32 @@ DeepCNN/
 ├── LICENSE                            # MIT License
 ├── .gitignore                        # Git ignore rules
 │
-├── Day 2 - Image Classification & CNN/
-│   ├── Session_1/
-│   │   ├── code/
+├── 📁Day 2 - Image Classification & CNN/
+│   ├── 📁Session_1/
+│   │   ├── 📁code/
 │   │   │   └── Session_1_Classical-Machine-Learning.ipynb
-│   │   └── slide/                    # Presentation materials
+│   │   └── 📁slide/                    # Presentation materials
 │   │
-│   └── Session_2/
-│       ├── code/
+│   └── 📁Session_2/
+│       ├── 📁code/
 │       │   └── Session_2_Convolutional-Neural-Networks.ipynb
-│       └── slide/                    # Presentation materials
+│       └── 📁slide/                    # Presentation materials
 │
-└── Day 3 - Training Deep Models/
-    ├── Session_3/
-    │   ├── code/
+└── 📁Day 3 - Training Deep Models/
+    ├── 📁Session_3/
+    │   ├── 📁code/
     │   │   └── Session_3_Deep-Learning.ipynb
-    │   └── slide/                    # Presentation materials
+    │   └── 📁slide/                    # Presentation materials
     │
-    └── Session_4/
-        ├── code/
+    └── 📁Session_4/
+        ├── 📁code/
         │   ├── Session_4_End2End.ipynb
         │   ├── flood_segmentation_PT.py    # PyTorch implementation
         │   └── flood_segmentation_TF.py    # TensorFlow implementation
-        └── slide/                    # Presentation materials
+        └── 📁slide/                    # Presentation materials
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -117,11 +117,12 @@ DeepCNN/
 5. **Start learning**:
    Navigate to `Day 1 - Image Classification & CNN/Session_1/code/` and open the first notebook!
 
-### 🌐 Google Colab Alternative
+### Google Colab Alternative
 
 **No local setup required!** Run the notebooks directly in Google Colab with free GPU access:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+### [Open In Colab](https://colab.research.google.com/)
+<!-- (https://colab.research.google.com/assets/colab-badge.svg) -->
 
 #### **Benefits of Using Colab:**
 - ✅ **Free GPU/TPU access** - T4, V100, or TPU runtime
@@ -179,7 +180,7 @@ DeepCNN/
 **💡 Recommendation**: Start with Colab for quick experimentation, then move to local setup for longer projects.
 
 
-## 🛠 Environment Setup
+## Environment Setup
 
 ### For GPU Support (Optional but Recommended)
 
@@ -211,7 +212,7 @@ python -c "import torch; print(f'MPS available: {torch.backends.mps.is_available
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
 
-## 📦 Installation
+## Installation
 
 ### Automated Installation
 
@@ -266,7 +267,7 @@ python -c "import torch, tensorflow, numpy, matplotlib; print('All packages inst
    git config --system core.longpaths true
    ```
 
-## 📚 Usage
+## Usage
 
 ### Running the Notebooks
 
@@ -303,7 +304,7 @@ MASKS_DIR = os.path.join(ROOT_DIR, "Mask")
 torch.save(model.state_dict(), 'your_model.pth')
 ```
 
-## 🎓 Course Content
+## Course Content
 
 ### Day 2: Image Classification & CNN Fundamentals
 
@@ -343,7 +344,7 @@ torch.save(model.state_dict(), 'your_model.pth')
   - `flood_segmentation_TF.py`
   - `inference_TF.py`
 
-## ✨ Key Features
+## Key Features
 
 ### 🔬 **Real Hyperparameter Tuning**
 - **Actual training runs** (not simulated results)
@@ -370,7 +371,7 @@ torch.save(model.state_dict(), 'your_model.pth')
 - **Inference scripts**: Ready-to-use prediction code
 - **Optimization**: Speed and memory optimizations
 
-## 📊 Datasets
+## Datasets
 
 ### Supported Datasets
 
@@ -410,11 +411,11 @@ IMAGES_DIR = os.path.join(ROOT_DIR, "Image")
 MASKS_DIR = os.path.join(ROOT_DIR, "Mask")
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
-### How to Contribute
+### How to Contribute 🤝
 
 1. **Fork the repository**
 2. **Create feature branch**: `git checkout -b feature/amazing-feature`
@@ -433,7 +434,7 @@ We welcome contributions! Please see our contributing guidelines:
 - 🔧 **Tool and utility enhancements**
 - 🎨 **Visualization improvements**
 
-## 📄 License & Copyright
+## License & Copyright
 
 ### Copyright Notice
 
