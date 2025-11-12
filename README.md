@@ -17,7 +17,6 @@ This repository contains comprehensive tutorials and educational materials for D
 - [Usage](#usage)
 - [Course Content](#course-content)
 - [Key Features](#key-features)
-- [Requirements](#requirements)
 - [Datasets](#datasets)
 - [Contributing](#contributing)
 - [License & Copyright](#license--copyright)
